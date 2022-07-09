@@ -1,7 +1,7 @@
 html, body {
     font-size: 16px;
     font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "Noto Serif Japanese", serif;
-    background-color: #F6FFF1;
+    background-color: #fff1f0;
 }
 
 
@@ -23,7 +23,7 @@ html, body {
     top: 86%;
     left: 2%;
     z-index: 2;
-    color: #F6FFF1;
+    color: #fff1f0;
     /* background-color: rgba(159, 202, 173, 0.3); */
     font-size: 50px;
     font-weight: 500;
@@ -42,7 +42,7 @@ html, body {
 .header-menu_pc {
     width: 100%;
     height: 72px;
-    box-shadow: 0 3px 6px rgba(37, 122, 65, 0.2);
+    box-shadow: 0 3px 6px rgba(188, 58, 40, 0.2);
 }
 
 .header-list_pc {
@@ -62,7 +62,7 @@ html, body {
 .header-list_pc li a {
     display: block;
     font-weight: 550;
-    color: #257a41;
+    color: #BC3A28;
 }
 
 .hamburger-button {
@@ -81,7 +81,7 @@ html, body {
 .header-fix {
     position: fixed;
     top: 0;
-    background-color: #F6FFF1;
+    background-color: #fff1f0;
     width: 100%;
 
 }
@@ -89,13 +89,13 @@ html, body {
 
 
 .subtitle {
-    border-bottom: #257a41 solid 1px;
+    border-bottom: #BC3A28 solid 1px;
     width: 100%;
     margin: 25px 0;
 }
 
 .subtitle h3 {
-    color: #257a41;
+    color: #BC3A28;
     font-size: 30px;
     font-weight: 550;
 }
@@ -108,7 +108,7 @@ section {
 .about-content, .review-content, .access-content {
     width: 88%;
     margin: auto;
-    color: #499a64;
+    color: #ff4930;
 }
 
 
@@ -217,7 +217,7 @@ footer {
 
 footer p {
     font-size: 13px;
-    color: #9fcaad;
+    color: #ffc2bb;
 }
 
 
