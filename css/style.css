@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Yuji+Boku&display=swap');
+
+
 html, body {
     font-size: 16px;
     font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "Noto Serif Japanese", serif;
@@ -20,18 +24,28 @@ html, body {
     max-width: 1920px;
     max-height: 960px;
     position: absolute;
-    top: 86%;
-    left: 2%;
+    /* top: 75%;
+    left: 1.8%; */
+    top: 75%;
+    left: calc(100vw/2);
+    transform: translateX(-50%);
+
     z-index: 2;
     color: #fff1f0;
     /* background-color: rgba(159, 202, 173, 0.3); */
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 100px;
     font-weight: 500;
+    line-height: 1.2;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Yuji Boku', serif;
 }
 
 @media screen and (min-width:1920px) {
     .header-img p {
-        font-size: calc(100vw/30);
+        top: 83%;
+        font-size: calc(100vw/20);
     }
 }
 
@@ -89,9 +103,10 @@ html, body {
 
 
 .subtitle {
-    border-bottom: #BC3A28 solid 1px;
+    /* border-bottom: #BC3A28 solid 1px; */
     width: 100%;
     margin: 25px 0;
+    text-align: center;
 }
 
 .subtitle h3 {
@@ -105,11 +120,12 @@ section {
     margin: 25px auto 75px;
 }
 
-.about-content, .review-content, .access-content {
+.about-content, .recipe-content, .review-content, .access-content {
     width: 88%;
     margin: auto;
     color: #ff4930;
 }
+
 
 
 
@@ -141,6 +157,66 @@ section {
 
 }
 
+/*recipe*/
+.recipe {
+
+}
+
+.recipe-inner {
+
+}
+
+.recipe-content {
+
+}
+
+.recipe-list {
+    display: flex;
+}
+
+.recipe-list li {
+    width: 45%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+}
+
+.recipe-list li a {
+    display: block;
+}
+
+.recipe-img {
+    width: 100%;
+    margin: auto;
+}
+
+.recipe-img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.recipe-title {
+    margin: 10px 20px;
+}
+
+.recipe-title h4 {
+    font-size: 25px;
+    
+    color: #ff4930;
+}
+
+.recipe-text {
+    
+}
+
+.recipe-text p {
+    font-size: 17px;
+    color: #ff4930;
+    margin: 15px;
+}
+
+
 
 /*review*/
 
@@ -159,6 +235,10 @@ section {
 .review-list li {
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 10px;
+    /* border: 5px solid #BC3A28; */
+    border-radius: 20px;
+    background-color: white;
 }
 
 
@@ -225,13 +305,21 @@ footer p {
 @media screen and (max-width:960px) {
     .header-img p {
         position: absolute;
-        top: 83%;
-        left: 2%;
+        /* top: 72%;
+        left: 2%; */
+        top: 72%;
+        left: calc(100vw/2);
+        transform: translateX(-50%);
+
         z-index: 2;
         color: white;
         /* background-color: rgba(159, 202, 173, 0.3); */
-        font-size: 45px;
+        /* font-size: 45px; */
+        font-size: 85px;
+
         font-weight: 500;
+        line-height: 1.2;
+
     }
 
     .header-list_pc {
@@ -269,12 +357,16 @@ footer p {
 @media screen and (max-width:768px) {
     .header-img p {
         position: absolute;
-        top: 84%;
-        left: 2%;
+        /* top: 84%;
+        left: 2%; */
+        top: 72%;
+        left: calc(100vw/2);
+        transform: translateX(-50%);
         z-index: 2;
         color: white;
         /* background-color: rgba(159, 202, 173, 0.3); */
-        font-size: calc(100vw/30);
+        /* font-size: calc(100vw/30); */
+        font-size: calc(100vw/10);
         font-weight: 500;
     }
 
