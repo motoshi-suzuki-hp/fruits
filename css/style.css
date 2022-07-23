@@ -449,6 +449,10 @@ footer p {
         width: 100%;
     }
 
+    #about {
+        height: 600px;
+    }
+
     .about-inner, .recipe-inner, .review-inner, .access-inner {
         width: 768px;
         margin: 0 auto 100px;
@@ -465,15 +469,17 @@ footer p {
     }
 
     .about-content {
-        color: white;
     }
 
     .about-img {
-        width: 50%;
+        width: 60%;
     }
 
     .about-text {
-        width: 45%;
+        width: 60%;
+
+        top: 20%;
+        left: 50%;
     }
 
     .recipe-img {
