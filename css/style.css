@@ -82,7 +82,7 @@ header {
 
 .header-list_pc li a {
     display: block;
-    font-weight: 550;
+    font-weight: 600;
     color: #BC3A28;
 }
 
@@ -167,7 +167,7 @@ section {
 
 .about-content, .recipe-content, .review-content, .access-content {
     width: 88%;
-    margin: auto;
+    margin: 30px auto;
     color: #ff4930;
 
 }
@@ -211,17 +211,18 @@ section {
 
 .about-text {
     width: 50%;
-    background-color: #fff1f0;
+    background-color: rgba(255, 241, 240, 0.9);
     border-radius: 20px;
     padding: 20px;
 
     position: absolute;
     top: 20%;
     left: 50%;
+
 }
 
 .about-text p {
-
+    line-height: 1.7;
 }
 
 /*recipe*/
@@ -274,7 +275,7 @@ section {
 
 .recipe-title h4 {
     font-size: 25px;
-    
+    font-weight: 600;
     color: #ff4930;
 }
 
@@ -288,6 +289,29 @@ section {
     padding: 0 15px 15px;
 }
 
+.recipe-memo {
+    position: relative;
+    background: #ffffff;
+    width: 85%;
+    margin: 2em auto 5em;
+    /* padding: 1.5em 1em; */
+    transform: rotate(-2deg);
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+    color: #ff4930;
+}
+
+.recipe-memo::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    margin-left: -75px;
+    width: 150px;
+    height: 30px;
+    background: rgba(255, 183, 178, 0.5);
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+    transform: rotate(-4deg);
+}
 
 
 /*review*/
@@ -375,8 +399,15 @@ section {
 
 /*access*/
 
-.access {
+.access-inner {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
 
+.access-content {
+    width: 100%;
+    margin: 0;
 }
 
 .access-content {
@@ -390,6 +421,7 @@ section {
 .access-content iframe {
     display: block;
     width: 100%;
+    height: calc(100vw/3);
 }
 
 
@@ -404,15 +436,15 @@ footer {
     /* background-color: #c9efaf; */
     text-align: center;
 
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
 }
 
-footer p {
+footer .copy {
     font-size: 13px;
     color: #ffc2bb;
+    padding-bottom: 20px;
 }
 
 

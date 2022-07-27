@@ -6,6 +6,7 @@
   <title>櫻井農園</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/zoomin.css">
   <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
 
 </head>
@@ -93,12 +94,14 @@
                     </div>
                     <div class="about-text">
                         <p>
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            首都圏から車で2時間。<br>
+                            東京とは思えない、自然に囲まれた地で桃を栽培しています。<br>
+                            美味しい桃を食べて笑顔になってもらいたい、<br>
+                            そんな思いで丹精込めて育てています。<br>
+                            <br>
+                            夏の収穫シーズンには桃狩りを行っています。<br>
+                            甘くてみずみずしい採れたての桃にガブリとかぶりついてみませんか？<br>
+                            ぜひ一度お越しください。
                         </p>
                     </div>
                 </div>
@@ -113,9 +116,9 @@
                 <div class="recipe-content">
                     <p>そのまま食べても美味しい桃ですが、ひと手間加えるだけでまた違ったおいしさを楽しめます。<br>スタッフイチオシのアレンジレシピをご紹介します。</p>
                     <ul class="recipe-list">
-                        <li>
+                        <li class="recipe-memo zoomIn">
                             <a href="">
-                                <div class="recipe-img">
+                                <div class="recipe-img mask">
                                     <img src="./img/salad.jpg" alt="salad">
                                 </div>
                                 <div class="recipe-title">
@@ -126,9 +129,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="recipe-memo zoomIn">
                             <a href="">
-                                <div class="recipe-img">
+                                <div class="recipe-img mask">
                                     <img src="./img/parfait.jpg" alt="parfait">
                                 </div>
                                 <div class="recipe-title">
@@ -139,9 +142,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="recipe-memo zoomIn">
                             <a href="">
-                                <div class="recipe-img">
+                                <div class="recipe-img mask">
                                     <img src="./img/pizza.jpg" alt="pizza">
                                 </div>
                                 <div class="recipe-title">
@@ -152,9 +155,9 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="recipe-memo zoomIn">
                             <a href="">
-                                <div class="recipe-img">
+                                <div class="recipe-img mask">
                                     <img src="./img/souffle.jpg" alt="souffle">
                                 </div>
                                 <div class="recipe-title">
@@ -208,25 +211,23 @@
             </div>
         </section>
 
-        <section class="access">
-            <div class="access-inner">
-                <div class="subtitle">
-                    <h3>アクセス</h3>
-                </div>
-                <div class="access-content">
-                    <div class="access-text">
-                        <p>
-                            &#12306;190-0181 <span>東京都西多摩郡日の出町大久野</span>
-                        </p>
-                    </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51799.56219727425!2d139.17491725534828!3d35.763764721728755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601924b1cb8d1e53%3A0x17f4a85244c8883f!2z44CSMTkwLTAxODEg5p2x5Lqs6YO96KW_5aSa5pGp6YOh5pel44Gu5Ye655S65aSn5LmF6YeO!5e0!3m2!1sja!2sjp!4v1657341276190!5m2!1sja!2sjp" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </section>
     </body>
 
     <footer>
-        <p>&copy;櫻井農園</p>
+        <div class="footer-info">
+            <div class="access-text">
+                <p>&#12306;190-0181<br>東京都西多摩郡日の出町大久野</p>
+            </div>
+            <div class="phone-text">
+                <p>03-xxxx-xxxx</p>
+            </div>
+        </div>
+        <p class="copy">&copy;櫻井農園</p>
+            <div class="access-inner">
+                <div class="access-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51799.56219727425!2d139.17491725534828!3d35.763764721728755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601924b1cb8d1e53%3A0x17f4a85244c8883f!2z44CSMTkwLTAxODEg5p2x5Lqs6YO96KW_5aSa5pGp6YOh5pel44Gu5Ye655S65aSn5LmF6YeO!5e0!3m2!1sja!2sjp!4v1657341276190!5m2!1sja!2sjp" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
     </footer>
 
     <script src="./js/header.js"></script>
